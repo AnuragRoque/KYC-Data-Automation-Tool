@@ -55,5 +55,4 @@ This repository contains a Python-based tool designed for automating the extract
 - It maintains a clean and professional layout.
 - It provides clear instructions and contact details in an actionable manner.
 
-Simply copy and paste this into your `README.md` file.
 
