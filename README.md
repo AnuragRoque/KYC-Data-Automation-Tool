@@ -46,7 +46,7 @@ This repository contains a Python-based tool designed for automating the extract
     [Visit TRPW Partners](https://trpwpartners.com/)
 
 3. Contract me for help and guide
-   [📧 Anurag Singh at](mailto:anuragsingh2445@gmail.com)
+   [Anurag Singh](mailto:anuragsingh2445@gmail.com) 📧 anuragsingh2445@gmail.com
 
 
 
