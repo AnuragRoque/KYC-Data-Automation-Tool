@@ -1,58 +1,66 @@
-# KYC Data Automation Tool
+# KYC Data Automation & Operational Efficiency Tools
 
 ## Overview
-This repository contains a Python-based tool designed for automating the extraction, processing, and analysis of various KYC (Know Your Customer) documents. The tool is tailored for handling both personal and business documents, including scanned documents with low quality, reducing manual effort by up to 80%.
 
-### Supported Document Types
-#### Personal Documents:
+This repository showcases a curated collection of Python-based scripts and automation pipelines originally developed to streamline Know Your Customer (KYC) processes for enterprise organizations. The tools provided here are designed to automate the extraction, processing, and validation of both personal and business documents, significantly reducing manual data entry and improving overall operational efficiency.
+
+In addition to the KYC OCR pipelines, this repository includes several utility scripts aimed at data cleaning, file optimization, and workflow automation.
+
+## Core Capabilities
+
+### 1. Enterprise KYC Automation
+Automated Optical Character Recognition (OCR) and data extraction pipelines designed to handle varying document qualities (including low-resolution scans).
+
+**Personal Documents:**
 - Aadhaar Card
-- PAN Card
-- Driver's License (DL)
-- Voter ID
+- Permanent Account Number (PAN) Card
+- Driver's License
+- Voter Identification
 - Passport
 
-#### Business Documents:
+**Business & Corporate Documents:**
 - Company PAN
-- GST Registration Certificate
+- Goods and Services Tax (GST) Registration Certificate
 - Certificate of Incorporation
-- Memorandum of Association (MOA)
-- Articles of Association (AOA)
-- Partnership Deed
-- Trust Deed
-- Other official business documents
+- Memorandum of Association (MOA) & Articles of Association (AOA)
+- Partnership & Trust Deeds
 
-### Key Features
-- **Automated OCR**: Extract text from scanned documents, including low-quality images, using Tesseract OCR and Google Cloud Vision API.
-- **Multi-Document Support**: Handles a variety of document types for personal and business use cases.
-- **Data Validation**: Cleans and validates extracted data to ensure accuracy.
-- **High Efficiency**: Reduces manual data entry work by up to 80%.
-- **Flexible Integration**: Can be easily adapted to various storage solutions like Amazon S3 and local directories.
+### 2. Operational Utility Tools
+Beyond KYC, this repository contains supplementary tools for daily data operations. Some of the included tools are:
+- **Excel & CSV Sheet Cleaner**: Automated data sanitization, empty row/column removal, and structural formatting.
+- **Image Compressor**: Secure, offline GUI-based image size optimization.
+- **Name Match Percentage Analyzers**: Machine Learning and LLM-based tools for bulk name-matching and verification.
+- **Quantity Splitter & Unique Generator**: Advanced data splitting and unique identifier generation.
+- **Document Translators**: Executables for batch translating Excel files and PDFs.
 
-### Tech Stack
-- **Programming Language**: Python
-- **Libraries and Tools**:
-  - Pandas: For data processing
-  - OpenCV: For image pre-processing
-  - Tesseract OCR: For text extraction
-  - Google Cloud Vision API: For enhanced OCR capabilities
-- **Storage Solutions**: Amazon S3, Local File System
+## Technical Architecture
 
-### Want to use ?
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AnuragRoque/kyc-data-automation-tool.git
+- **Primary Language**: Python
+- **Key Frameworks & Libraries**:
+  - `pandas` for high-performance data manipulation
+  - `OpenCV` for advanced image preprocessing and enhancement
+  - `Tesseract OCR` & `Google Cloud Vision API` for robust text extraction
+  - Custom LLM integration for contextual data formatting and name matching
+- **Deployment & Storage**: Compatible with local file systems and adaptable for cloud storage integration (e.g., Amazon S3).
 
-2. 📧 Want to integrate this tool for your business? Contact TRPW at
-    [Visit TRPW Partners](https://trpwpartners.com/)
+## Usage & Integration
 
-3. Contract me for help and guide
-   [Anurag Singh](mailto:anuragsingh2445@gmail.com) 📧 anuragsingh2445@gmail.com
+These scripts are provided as technical showcases and sample implementations. They demonstrate the foundational logic required to build robust data pipelines for enterprise environments. 
 
+To explore the code:
+```bash
+git clone https://github.com/AnuragRoque/kyc-data-automation-tool.git
+```
 
+## Professional Support & Advanced Implementations
 
-### Why This Format Works:
-- It uses Markdown syntax correctly for headers, bullet points, and links.
-- It maintains a clean and professional layout.
-- It provides clear instructions and contact details in an actionable manner.
+While these samples demonstrate core functionality, enterprise environments often require customized pipelines, secure integrations, and scalable infrastructure. 
 
+If your organization requires comprehensive data automation solutions, dedicated support, or custom workflow development, please feel free to reach out to discuss consulting and contract opportunities. 
 
+**Contact Information:**
+- **Email:** anuragsingh2445@gmail.com
+- **Enterprise Solutions via TRPW:** [Visit TRPW Partners](https://trpwpartners.com/)
+
+---
+*Note: This repository is maintained to demonstrate technical capability in workflow automation and data processing. For production-grade implementations, architectural consultation is recommended.*
